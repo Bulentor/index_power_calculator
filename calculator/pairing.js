@@ -3,7 +3,7 @@ const pairing = (pair, ip) => {
 
   const perfect_pair_power = power * 3;
   const improved_pair_power = power * 2;
-  const minimal_pair_power = power * 0.75;
+  const minimal_pair_power = power * 0.25;
 
   const improved_pair_mana = mana + (mana / 2);
   const minimal_pair_mana = mana + (mana * 2);
